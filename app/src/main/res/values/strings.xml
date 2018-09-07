@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NoPuedes</string>
+    <string name="title_home">Home</string>
+    <string name="title_category">Categorias</string>
+    <string name="title_favorite">Favoritos</string>
+    <string name="title_waifu">Waifus</string>
+    <string name="title_actionbar">AppChan</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_settings">Config</string>
+</resources>
