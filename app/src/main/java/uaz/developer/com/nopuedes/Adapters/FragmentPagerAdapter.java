@@ -1,5 +1,6 @@
 package uaz.developer.com.nopuedes.Adapters;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -12,8 +13,10 @@ import uaz.developer.com.nopuedes.Fragments.FragmentPopular;
  */
 
 public class FragmentPagerAdapter extends FragmentStatePagerAdapter {
+
+    Context context;
     int numerotabs;
-    public FragmentPagerAdapter(FragmentManager fm ,int number) {
+    public FragmentPagerAdapter(FragmentManager fm ,int number ,Context context) {
         super(fm);
         this.numerotabs=number;
     }

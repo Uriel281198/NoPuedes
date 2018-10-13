@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uaz.developer.com.nopuedes.Activities.WallpaperListActivity">
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+
+        >
+        <com.mancj.materialsearchbar.MaterialSearchBar
+            android:id="@+id/searchBar"
+            style="@style/MaterialSearchBarLight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:mt_hint="Enter Anime Name"
+            app:mt_maxSuggestionsCount="10"
+            app:mt_backIconTint="@color/colorWhite"
+            app:mt_clearIconTint="@color/colorWhite"
+            app:mt_hintColor="@color/colorWhite"
+            app:mt_placeholder="AppChan         "
+            app:mt_placeholderColor="@color/white"
+            app:mt_roundedSearchBarEnabled="false"
+            app:mt_searchBarColor="@color/colorPrimary"
+            app:mt_searchIconTint="@color/colorWhite"
+            app:mt_textColor="@color/colorWhite"
+
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_listwallpaper"
+        android:layout_below="@id/appbar"
+        android:clipChildren="false"
+        android:padding="0dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

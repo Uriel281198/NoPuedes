@@ -43,7 +43,7 @@ public class FragentHome extends Fragment {
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
 
-        FragmentPagerAdapter adapter= new FragmentPagerAdapter(getFragmentManager(),tabLayout.getTabCount());
+        FragmentPagerAdapter adapter= new FragmentPagerAdapter(getFragmentManager(),tabLayout.getTabCount(),context);
         viewPager.setAdapter(adapter);
         viewPager.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(tabLayout));
 

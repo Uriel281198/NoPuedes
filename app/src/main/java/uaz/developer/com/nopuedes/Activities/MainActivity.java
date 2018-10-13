@@ -20,7 +20,7 @@ import uaz.developer.com.nopuedes.R;
             public void run() {
                 Intent intent= new Intent(getApplicationContext(),ActivityHome.class);
                 startActivity(intent);
-                finish();
+                 finish();
             }
         },1000);
 
